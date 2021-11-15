@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Homework_App</string>
+    <string name="Вход">Вход</string>
+    <string name="name">*Имя</string>
+    <string name="password">*пароль</string>
+    <string name="voiti">Войти</string>
+    <string name="еще">Еще</string>
+    <string name="предложения">Предложения</string>
+    <string name="лента">Лента</string>
+    <string name="shops">Магазины</string>
+    <string name="account">Аккаунт</string>
+    <string name="editprofile">Редактировать профиль</string>
+    <string name="help">Помощь</string>
+    <string name="wallet">Кошелек</string>
+    <string name="settings">Настройки</string>
+    <string name="imya">Имя</string>
+    <string name="snickers">Snickers</string>
+    <string name="twix">Twix</string>
+    <string name="kit_kat">Kit Kat</string>
+    <string name="bounty">Bounty</string>
+    <string name="buy">Купить</string>
+    <string name="city">*город</string>
+    <string name="address">*адрес</string>
+    <string name="phone">*номер телефона</string>
+    <string name="payment">Способ оплаты</string>
+    <string name="map">*карта</string>
+    <string name="cash">*наличные</string>
+    <string name="_100">100</string>
+</resources>

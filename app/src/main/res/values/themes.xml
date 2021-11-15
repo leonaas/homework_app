@@ -1,0 +1,637 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Homework_App" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="image_view_style">
+        <item name="android:layout_height">258dp</item>
+        <item name="android:layout_width">235dp</item>
+        <item name="android:layout_marginTop">236dp</item>
+        <item name="android:layout_marginStart">88dp</item>
+        <item name="android:layout_marginBottom">237dp</item>
+        <item name="android:layout_marginEnd">88dp</item>
+        <item name="android:src">@drawable/zakupka</item>
+    </style>
+
+    <style name="text_view_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/Вход</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">189dp</item>
+        <item name="android:layout_marginEnd">196dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:id">@id/textView</item>
+    </style>
+
+    <style name="cardview_style">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">191dp</item>
+        <item name="android:layout_marginStart">109dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginEnd">117dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="cardCornerRadius">15dp</item>
+        <item name="android:id">@id/cardView</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">191dp</item>
+        <item name="android:background">@color/light_grey</item>
+        <item name="android:text">@string/name</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+        <item name="android:id">@id/button</item>
+    </style>
+
+    <style name="cardview2_style.">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginStart">111dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginEnd">116dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="cardCornerRadius">15dp</item>
+    </style>
+
+    <style name="button2_style">
+        <item name="android:layout_width">190dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:text">@string/password</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+    </style>
+
+    <style name="button3_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">23dp</item>
+        <item name="android:backgroundTint">@color/light_orange</item>
+        <item name="android:text">@string/voiti</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="button4_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">88dp</item>
+        <item name="android:backgroundTint">@color/light_orange</item>
+        <item name="android:text">@string/еще</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="imagebutton_style">
+        <item name="android:layout_width">69dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginTop">26dp</item>
+        <item name="android:layout_marginEnd">13dp</item>
+        <item name="android:layout_marginBottom">51dp</item>
+        <item name="android:src">@drawable/menu</item>
+    </style>
+
+    <style name="imageview2_style">
+        <item name="android:layout_width">187dp</item>
+        <item name="android:layout_height">59dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginTop">36dp</item>
+        <item name="android:src">@drawable/zakupka_nadpis</item>
+    </style>
+
+    <style name="imageview3_style">
+        <item name="android:layout_width">69dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_marginStart">13dp</item>
+        <item name="android:layout_marginTop">36dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:src">@drawable/poisk</item>
+    </style>
+
+    <style name="text_view2_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/предложения</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="view_style">
+        <item name="android:layout_width">370dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+        <item name="android:layout_marginBottom">567dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+
+    </style>
+
+    <style name="imageview4_style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="srcCompat">@drawable/question</item>
+    </style>
+
+    <style name="imageview5_style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="srcCompat">@drawable/account</item>
+    </style>
+
+    <style name="imageview6_style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="srcCompat">@drawable/basket</item>
+    </style>
+
+    <style name="constlayout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">9dp</item>
+        <item name="android:layout_marginBottom">53dp</item>
+    </style>
+
+    <style name="imageview7_style">
+        <item name="android:layout_width">206dp</item>
+        <item name="android:layout_height">197dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="srcCompat">@drawable/shinline</item>
+    </style>
+
+    <style name="imageview8_style">
+        <item name="android:layout_width">134dp</item>
+        <item name="android:layout_height">113dp</item>
+        <item name="android:layout_marginStart">40dp</item>
+        <item name="android:layout_marginTop">36dp</item>
+        <item name="android:layout_marginEnd">42dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="srcCompat">@drawable/roshen</item>
+    </style>
+
+    <style name="imageview9_style">
+        <item name="android:layout_width">133dp</item>
+        <item name="android:layout_height">153dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">40dp</item>
+        <item name="android:layout_marginBottom">28dp</item>
+        <item name="srcCompat">@drawable/shoro</item>
+    </style>
+
+    <style name="imageview10_style">
+        <item name="android:layout_width">147dp</item>
+        <item name="android:layout_height">133dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginBottom">38dp</item>
+        <item name="srcCompat">@drawable/pshenica</item>
+    </style>
+
+    <style name="linearlayout_style">
+        <item name="android:layout_width">409dp</item>
+        <item name="android:layout_height">108dp</item>
+        <item name="android:layout_marginStart">1dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginEnd">1dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="imageview11_style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="srcCompat">@drawable/basket</item>
+    </style>
+
+    <style name="linearlayout2_style">
+        <item name="android:layout_height">379dp</item>
+        <item name="android:layout_width">413dp</item>
+        <item name="android:layout_marginTop">45dp</item>
+        <item name="android:layout_marginEnd">1dp</item>
+        <item name="android:layout_marginBottom">58dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="button5_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">@color/buryi</item>
+        <item name="android:text">@string/лента</item>
+    </style>
+
+    <style name="button6_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">@color/buryi</item>
+        <item name="android:text">@string/shops</item>
+    </style>
+
+    <style name="button7_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">@color/buryi</item>
+        <item name="android:text">@string/zakazy</item>
+    </style>
+
+    <style name="button8_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">@color/buryi</item>
+        <item name="android:text">@string/account</item>
+    </style>
+
+    <style name="button9_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">@color/buryi</item>
+        <item name="android:text">@string/settings</item>
+    </style>
+
+    <style name="imagebutton2_style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="srcCompat">?attr/actionModeCloseDrawable</item>
+    </style>
+
+    <style name="linearlayout3_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">9dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="button10_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">@color/buryi</item>
+        <item name="android:text">@string/editprofile</item>
+    </style>
+
+    <style name="button11_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">@color/buryi</item>
+        <item name="android:text">заказы</item>
+    </style>
+
+    <style name="button12_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">@color/buryi</item>
+        <item name="android:text">@string/help</item>
+    </style>
+
+    <style name="button13_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">@color/buryi</item>
+        <item name="android:text">@string/wallet</item>
+    </style>
+
+    <style name="button14_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">74dp</item>
+        <item name="android:background">@color/buryi</item>
+        <item name="android:text">@string/settings</item>
+    </style>
+
+    <style name="constlayout2_style">
+        <item name="android:layout_height">243dp</item>
+        <item name="android:layout_width">229dp</item>
+        <item name="android:layout_marginStart">91dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:layout_marginEnd">91dp</item>
+    </style>
+
+    <style name="imageview12_style">
+        <item name="android:layout_width">135dp</item>
+        <item name="android:layout_height">133dp</item>
+        <item name="srcCompat">@drawable/account</item>
+    </style>
+
+    <style name="textview3_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/imya</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+
+    <style name="imageview13_style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginStart">239dp</item>
+        <item name="android:layout_marginTop">85dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="srcCompat">@drawable/account</item>
+    </style>
+
+    <style name="imageview14_style">
+        <item name="android:layout_width">133dp</item>
+        <item name="android:layout_height">111dp</item>
+        <item name="srcCompat">@drawable/basket</item>
+    </style>
+
+    <style name="linearlayout4_style">
+        <item name="android:layout_width">411dp</item>
+        <item name="android:layout_height">406dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">84dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="constlayout3_style">
+        <item name="android:layout_width">410dp</item>
+        <item name="android:layout_height">101dp</item>
+    </style>
+
+    <style name="linearlayout5_style">
+        <item name="android:layout_width">182dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="imageview15_style">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="srcCompat">@drawable/mini_snikers</item>
+    </style>
+
+    <style name="textview4_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/snickers</item>
+    </style>
+
+    <style name="constlayout4_style">
+        <item name="android:layout_width">121dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginStart">101dp</item>
+    </style>
+
+    <style name="button15_style">
+        <item name="android:layout_height">39dp</item>
+        <item name="android:layout_width">61dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginTop">17dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:background">@color/grey2</item>
+        <item name="android:text">@string/_100</item>
+    </style>
+
+    <style name="imagebutton3_style">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="srcCompat">@android:drawable/arrow_up_float</item>
+    </style>
+
+    <style name="imagebutton4_style">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="srcCompat">@android:drawable/arrow_down_float</item>
+    </style>
+
+    <style name="constlayout5_style">
+        <item name="android:layout_width">409dp</item>
+        <item name="android:layout_height">96dp</item>
+    </style>
+
+    <style name="linearlayout6_style">
+        <item name="android:layout_width">178dp</item>
+        <item name="android:layout_height">99dp</item>
+        <item name="android:layout_marginEnd">104dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="imageview16_style">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="srcCompat">@drawable/twix</item>
+    </style>
+
+    <style name="textview5_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/twix</item>
+    </style>
+
+    <style name="constlayout6_style">
+        <item name="android:layout_width">113dp</item>
+        <item name="android:layout_height">78dp</item>
+    </style>
+
+    <style name="button16_style">
+        <item name="android:layout_height">39dp</item>
+        <item name="android:layout_width">61dp</item>
+        <item name="android:layout_marginStart">9dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">21dp</item>
+        <item name="android:background">@color/grey2</item>
+        <item name="android:text">@string/_100</item>
+    </style>
+
+    <style name="imagebutton5_style">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginStart">7dp</item>
+        <item name="android:layout_marginEnd">7dp</item>
+        <item name="srcCompat">@android:drawable/arrow_up_float</item>
+    </style>
+
+    <style name="imagebutton6_style">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginStart">7dp</item>
+        <item name="android:layout_marginEnd">7dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="srcCompat">@android:drawable/arrow_down_float</item>
+    </style>
+
+    <style name="imageview17_style">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="srcCompat">@drawable/kitkat</item>
+    </style>
+
+    <style name="textview6_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/kit_kat</item>
+    </style>
+
+    <style name="imageview18_style">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="srcCompat">@drawable/bounty</item>
+    </style>
+
+    <style name="textview7_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/bounty</item>
+    </style>
+
+    <style name="button17_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">88dp</item>
+        <item name="android:backgroundTint">@color/light_orange</item>
+        <item name="android:text">@string/buy</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="linearlayout7_style">
+        <item name="android:layout_width">258dp</item>
+        <item name="android:layout_height">276dp</item>
+
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="constlayout7_style">
+        <item name="android:layout_width">279dp</item>
+        <item name="android:layout_height">87dp</item>
+    </style>
+
+    <style name="cardview3_style">
+        <item name="android:layout_width">257dp</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_marginStart">1dp</item>
+        <item name="android:layout_marginEnd">21dp</item>
+        <item name="cardCornerRadius">15dp</item>
+    </style>
+
+    <style name="button18_style">
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/clear</item>
+        <item name="android:text">@string/city</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+    </style>
+
+    <style name="constlayout8_style">
+        <item name="android:layout_width">279dp</item>
+        <item name="android:layout_height">87dp</item>
+    </style>
+
+    <style name="cardview4_style">
+        <item name="android:layout_width">257dp</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_marginStart">1dp</item>
+        <item name="android:layout_marginEnd">21dp</item>
+        <item name="android:layout_marginBottom">26dp</item>
+        <item name="cardCornerRadius">15dp</item>
+    </style>
+
+    <style name="button19_style">
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/clear</item>
+        <item name="android:text">@string/address</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+    </style>
+
+    <style name="button20_style">
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/clear</item>
+        <item name="android:text">@string/phone</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+    </style>
+
+    <style name="textview8_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">@string/payment</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="linearlayout8_style">
+        <item name="android:layout_width">263dp</item>
+        <item name="android:layout_height">114dp</item>
+        <item name="android:layout_marginStart">78dp</item>
+        <item name="android:layout_marginEnd">71dp</item>
+        <item name="android:layout_marginBottom">112dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="constlayout9_style">
+        <item name="android:layout_width">133dp</item>
+        <item name="android:layout_height">102dp</item>
+    </style>
+
+    <style name="cardview5_style">
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_width">132dp</item>
+        <item name="android:layout_marginStart">1dp</item>
+        <item name="android:layout_marginBottom">41dp</item>
+        <item name="cardCornerRadius">15dp</item>
+    </style>
+
+    <style name="button21_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="android:background">@color/light_brown</item>
+        <item name="android:backgroundTint">@color/light_orange</item>
+        <item name="android:text">@string/map</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+    </style>
+
+    <style name="cardview6_style">
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_width">132dp</item>
+        <item name="android:layout_marginStart">1dp</item>
+        <item name="android:layout_marginBottom">41dp</item>
+        <item name="cardCornerRadius">15dp</item>
+    </style>
+
+    <style name="button22_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="android:background">@color/light_brown</item>
+        <item name="android:backgroundTint">@color/light_orange</item>
+        <item name="android:text">@string/cash</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+    </style>
+
+    <style name="constlayout10_style">
+        <item name="android:layout_width">410dp</item>
+        <item name="android:layout_height">290dp</item>
+        <item name="android:layout_marginStart">7dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <string name="zakazy">zakazy</string>
+</resources>
