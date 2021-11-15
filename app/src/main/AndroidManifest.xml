@@ -10,25 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Homework_App">
         <activity
-            android:name=".login"
+            android:name=".LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".menu"
+            android:name=".MenuActivity"
             android:exported="true" />
         <activity
-            android:name=".pay"
+            android:name=".PayActivity"
             android:exported="true" />
         <activity
-            android:name=".open"
+            android:name=".OpenActivity"
             android:exported="true" />
         <activity
-            android:name=".basket"
+            android:name=".BasketActivity"
             android:exported="true" />
         <activity
-            android:name=".homee"
+            android:name=".HomeeActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".AccountActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

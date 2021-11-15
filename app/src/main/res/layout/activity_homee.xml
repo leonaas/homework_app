@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".homee">
+    tools:context=".HomeeActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout7"
@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/menu"
             style="@style/imagebutton_style"/>
 
         <ImageView
@@ -61,7 +61,7 @@
             tools:layout_editor_absoluteY="584dp" />
 
         <ImageView
-            android:id="@+id/imageView8"
+            android:id="@+id/account"
             style="@style/imageview5_style"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -118,7 +118,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/basket"
             style="@style/imageview6_style"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="10dp"
