@@ -7,22 +7,22 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
 
-class HomeeActivity : AppCompatActivity() {
+class HomeeExtraActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_homee)
+        setContentView(R.layout.activity_menu_extra)
 
         val menu = findViewById<ImageButton>(R.id.menu)
 
         menu.setOnClickListener{
-            startActivity(Intent(this,kg.test.homework_app.MenuActivity::class.java))
+            startActivity(Intent(this,MenuActivity::class.java))
             finish()
         }
 
         val basket = findViewById<ImageView>(R.id.basket)
 
         basket.setOnClickListener{
-            startActivity(Intent(this,kg.test.homework_app.BasketActivity::class.java))
+            startActivity(Intent(this,BasketActivity::class.java))
             finish()
         }
 
@@ -30,13 +30,6 @@ class HomeeActivity : AppCompatActivity() {
 
         account.setOnClickListener{
             startActivity(Intent(this,AccountActivity::class.java))
-            finish()
-        }
-
-        val extra = findViewById<Button>(R.id.extra)
-
-        extra.setOnClickListener{
-            startActivity(Intent(this,HomeeExtraActivity::class.java))
             finish()
         }
 

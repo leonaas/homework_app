@@ -14,6 +14,7 @@ class LoginActivity : AppCompatActivity() {
 
         voiti.setOnClickListener{
             startActivity(Intent(this,HomeeActivity::class.java))
+            finish()
         }
     }
 }

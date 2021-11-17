@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeeActivity">
+    tools:context=".HomeeExtraActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout7"
@@ -67,6 +67,7 @@
             app:layout_constraintEnd_toEndOf="parent" />
     </LinearLayout>
 
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout4"
         style="@style/constlayout_style"
@@ -79,8 +80,10 @@
         <ImageView
             android:id="@+id/imageView6"
             style="@style/imageview7_style"
-            android:layout_marginStart="8dp"
-            android:layout_marginBottom="208dp"
+            android:layout_width="163dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="240dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -95,10 +98,10 @@
         <ImageView
             android:id="@+id/imageView7"
             style="@style/imageview9_style"
-            android:layout_marginBottom="228dp"
+            android:layout_marginBottom="252dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintHorizontal_bias="0.406"
             app:layout_constraintStart_toEndOf="@+id/imageView6" />
 
         <ImageView
@@ -108,12 +111,15 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/extra"
-            style="@style/button4_style"
-            android:layout_marginBottom="140dp"
+        <ImageView
+            android:id="@+id/imageVieww6"
+            style="@style/imagevieww10_style"
+            android:layout_width="139dp"
+            android:layout_height="127dp"
+            android:layout_marginBottom="96dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageView
@@ -123,7 +129,8 @@
             android:layout_marginBottom="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

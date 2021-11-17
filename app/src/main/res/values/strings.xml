@@ -26,4 +26,19 @@
     <string name="map">*карта</string>
     <string name="cash">*наличные</string>
     <string name="_100">100</string>
+    <string name="email">*электронный адрес</string>
+    <string name="gotovo">готово</string>
+    <string name="info">информация</string>
+    <string name="inform">Данное приложение разработано для удобного закупа необходимых продуктов оптом. Основными потребителями являются продавцы в продуктовых магазинах...</string>
+    <string name="inform2">Если у вас есть вопросы и пожелания - пишите нам на почту - @zakupka@mail.ru</string>
+    <string name="information">Информация об услуге</string>
+    <string name="summa">На какую сумму подготовить сдачу?</string>
+    <string name="change_language">Сменить язык</string>
+    <string name="russian">Русский</string>
+    <string name="notif_settings">Настройки уведомлений</string>
+    <string name="notification">Уведомлять об обновлениях товаров</string>
+    <string name="updates">Уведомлять о новых версиях приложения</string>
+    <string name="delete_account">Удалить аккаунт</string>
+    <string name="zakazy">заказы</string>
+    <string name="card">платежная карта</string>
 </resources>

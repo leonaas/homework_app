@@ -58,6 +58,28 @@
         <item name="android:id">@id/button</item>
     </style>
 
+    <style name="buttonn_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">191dp</item>
+        <item name="android:background">@color/light_grey</item>
+        <item name="android:text">@string/phone</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+        <item name="android:id">@id/button</item>
+    </style>
+
+    <style name="buttonn2_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">191dp</item>
+        <item name="android:background">@color/light_grey</item>
+        <item name="android:text">@string/email</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+        <item name="android:id">@id/button</item>
+    </style>
+
     <style name="cardview2_style.">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
@@ -86,6 +108,16 @@
         <item name="android:layout_marginBottom">23dp</item>
         <item name="android:backgroundTint">@color/light_orange</item>
         <item name="android:text">@string/voiti</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="button_gotovo_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">23dp</item>
+        <item name="android:backgroundTint">@color/light_orange</item>
+        <item name="android:text">@string/gotovo</item>
         <item name="android:textColor">@color/black</item>
     </style>
 
@@ -204,6 +236,15 @@
         <item name="srcCompat">@drawable/pshenica</item>
     </style>
 
+    <style name="imagevieww10_style">
+        <item name="android:layout_width">147dp</item>
+        <item name="android:layout_height">133dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginBottom">38dp</item>
+        <item name="srcCompat">@drawable/akun</item>
+    </style>
+
     <style name="linearlayout_style">
         <item name="android:layout_width">409dp</item>
         <item name="android:layout_height">108dp</item>
@@ -294,7 +335,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">74dp</item>
         <item name="android:background">@color/buryi</item>
-        <item name="android:text">@string/help</item>
+        <item name="android:text">@string/info</item>
     </style>
 
     <style name="button13_style">
@@ -532,6 +573,16 @@
         <item name="strokeWidth">20dp</item>
     </style>
 
+    <style name="buttonnn_style">
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/clear</item>
+        <item name="android:text">@string/card</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+    </style>
+
     <style name="constlayout8_style">
         <item name="android:layout_width">279dp</item>
         <item name="android:layout_height">87dp</item>
@@ -561,6 +612,16 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:background">@color/clear</item>
         <item name="android:text">@string/phone</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="strokeColor">@color/orange</item>
+        <item name="strokeWidth">20dp</item>
+    </style>
+
+    <style name="button_summa_style">
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/clear</item>
+        <item name="android:text">@string/summa</item>
         <item name="android:textColor">@color/grey</item>
         <item name="strokeColor">@color/orange</item>
         <item name="strokeWidth">20dp</item>

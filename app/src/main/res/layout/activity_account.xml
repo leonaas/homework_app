@@ -49,23 +49,23 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/edit_account"
                 style="@style/button10_style" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/zakazy"
                 style="@style/button11_style" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/info"
                 style="@style/button12_style" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/payment"
                 style="@style/button13_style" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/settings"
                 style="@style/button14_style" />
 
             <ImageButton
@@ -77,8 +77,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
         </LinearLayout>
-
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

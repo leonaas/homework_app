@@ -5,24 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
-import androidx.constraintlayout.widget.ConstraintLayout
 
-class PayActivity : AppCompatActivity() {
+class CardPayActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pay)
+        setContentView(R.layout.activity_card_payment)
 
-        val card = findViewById<ConstraintLayout>(R.id.card)
+        val buy = findViewById<Button>(R.id.buy)
 
-        card.setOnClickListener{
-            startActivity(Intent(this,CardPayActivity::class.java))
-            finish()
-        }
-
-        val cash = findViewById<ConstraintLayout>(R.id.cash)
-
-        cash.setOnClickListener{
-            startActivity(Intent(this,CashPayActivity::class.java))
+        buy.setOnClickListener{
+            startActivity(Intent(this,HomeeActivity::class.java))
             finish()
         }
 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardPayActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        style="@style/linearlayout7_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="253dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/zakupka_nadpis" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/textview8_style"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="50dp"
+            android:textSize="25sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout55"
+            style="@style/constlayout7_style">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView1"
+                style="@style/cardview3_style"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <EditText
+                    android:id="@+id/buttonn"
+                    style="@style/buttonnn_style" />
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            style="@style/constlayout8_style">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardVieww"
+                style="@style/cardview4_style"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <EditText
+                    android:id="@+id/button22"
+                    style="@style/buttonnn_style" />
+
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout555"
+            style="@style/constlayout8_style">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                style="@style/cardview4_style"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <EditText
+                    android:id="@+id/button33"
+                    style="@style/buttonnn_style" />
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/buy"
+            style="@style/button17_style"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+        <ImageButton
+            android:id="@+id/back"
+            style="@style/imagebutton2_style"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="170dp"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Homework_App">
         <activity
+            android:name=".HomeeExtraActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CardPayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CashPayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InformationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AccountEditActivity"
+            android:exported="true" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity

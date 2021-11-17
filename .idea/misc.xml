@@ -4,13 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_account.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_account_edit.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_basket.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_homee.xml" value="0.1160081053698075" />
+        <entry key="app/src/main/res/layout/activity_card_payment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_cash_payment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_homee.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_information.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.12545289855072464" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_menu_extra.xml" value="0.1693840579710145" />
         <entry key="app/src/main/res/layout/activity_open.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_pay.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.25" />
       </map>
     </option>
   </component>

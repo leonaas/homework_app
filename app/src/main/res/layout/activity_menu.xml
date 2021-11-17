@@ -38,23 +38,23 @@
             style="@style/linearlayout2_style">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/lenta"
                 style="@style/button5_style" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/shop"
                 style="@style/button6_style" />
 
             <Button
-                android:id="@+id/button6"
-                style="@style/button7_style" />
+                android:id="@+id/zakazy"
+                style="@style/button11_style" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/accountt"
                 style="@style/button8_style" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/settings"
                 style="@style/button9_style" />
         </LinearLayout>
 
@@ -82,7 +82,7 @@
                 app:layout_constraintEnd_toEndOf="parent">
 
                 <ImageView
-                    android:id="@+id/imageView9"
+                    android:id="@+id/info"
                     style="@style/imageview4_style"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
